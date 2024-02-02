@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ced9761d7f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        textcolor: '#FA804C',
+                        text2color: '#363958',
+
+
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bg-blue {
+            background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-[#FFF9F4]">
+        <nav class="container mx-auto flex items-center justify-between max-sm:px-5">
+            <div class="w-52 sm:w-72">
+                <img src="icons/Logo.png" alt="">
+            </div>
+            <div>
+                <i class="md:hidden fa-solid fa-bars"></i>
+                <ul class="flex space-x-12 text-sm font-bold max-md:hidden">
+                    <li><a href="">Home</a></li>
+                    <li><a href=""></a>Product</li>
+                    <li><a href=""></a>About us</li>
+                    <li><a href=""></a>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <section
+            class="container mx-auto flex items-center justify-around max-sm:flex max-sm:flex-col-reverse pt-8 pb-32 mb-12">
+            <div class="pt-12">
+                <img src="images/Group 33092 (1).png" alt="">
+            </div>
+            <div class="space-y-4">
+                <h1 class="text-5xl font-semibold uppercase">
+                    <span class="text-textcolor">Nike React</span>
+                    <br>
+                    <span class="text-text2color">Infinity Run 2</span>
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing <br>
+                    and typesetting industry.</p>
+                <div class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center"><i
+                        class="fa-solid fa-cart-shopping"></i>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="px-5">
+        <section class="container mx-auto mb-8">
+            <h1 class="text-3xl mb-7 uppercase font-bold text-text2color">Casual shoes</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="shadow-2xl shadow-gray-200  p-5 rounded-xl">
+                    <div class=" bg-[#F1F1F1] rounded-xl">
+                        <img src="images/image 5.png" alt="">
+                    </div>
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Nike Shoe</h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-2xl shadow-gray-200  p-5 rounded-xl">
+                    <div class="pt-3 bg-[#F1F1F1] rounded-xl">
+                        <img src="images/pngegg 1.png" alt="">
+                    </div>
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Sneakers Basketball shoe</h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-2xl shadow-gray-200  p-5 rounded-xl">
+                    <div class="p-8 bg-[#F1F1F1] rounded-xl">
+                        <img src="images/Daco_1703273 1.png" alt="">
+                    </div>
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Sneakers Skate Shoe </h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto mb-8 mt-14">
+            <h1 class="text-3xl mb-7 uppercase font-bold text-text2color">Fromal Shoes</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="shadow-2xl shadow-gray-200 bg-white p-5 rounded-xl">
+                    <img src="images/Rectangle 39.png" alt="">
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Slip-On Formal Shoe</h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-2xl shadow-gray-200 bg-white p-5 rounded-xl">
+                    <img src="images/Rectangle 38.png" alt="">
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Slip-On Formal Shoe</h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-2xl shadow-gray-200 bg-white p-5 rounded-xl">
+                    <img src="images/Mask Group.png" alt="">
+                    <div class="mt-5 space-y-2">
+                        <h4 class="text-xl font-bold text-text2color">Prestige High-Cut Leather </h4>
+                        <p class="text-sm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-3xl font-extrabold text-[#FA804C]">$234</h3>
+                            <div
+                                class="inline-flex text-sm gap-1 py-4 px-8 rounded-lg text-white uppercase bg-blue items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto my-8">
+            <div class="sm:grid sm:grid-cols-2 grid max-sm:grid-rows-4 gap-5">
+                <div class="sm:hidden row-span-1"><img src="icons/XMLID 1.png" alt="">
+                </div>
+                <div
+                    class="sm:flex items-center justify-evenly rounded-2xl shadow-2xl shadow-gray-200 bg-slate-50 sm:h-32 flex max-sm:flex-col max-sm:items-center row-span-1 py-8 sm:me-12">
+                    <div class="w-20"><img src="icons/image 12.png" alt=""></div>
+                    <div class="space-y-3 w-72 max-sm:text-center">
+                        <h3 class="text-xl font-bold">Find the Perfect Fit</h3>
+                        <p class="text-sm">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="max-sm:hidden flex items-center row-span-3"><img src="icons/XMLID 1.png" alt="">
+                </div>
+                <div
+                    class="sm:flex items-center justify-evenly rounded-2xl shadow-2xl shadow-gray-200 bg-slate-50 sm:h-32 flex max-sm:flex-col max-sm:items-center row-span-1 py-8 sm:me-12">
+                    <div class="w-20"><img src="icons/image 13.png" alt=""></div>
+                    <div class="space-y-3 w-72 max-sm:text-center">
+                        <h3 class="text-xl font-bold">Free Exchanges</h3>
+                        <p class="text-sm">One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div
+                    class="sm:flex items-center justify-evenly rounded-2xl shadow-2xl shadow-gray-200 bg-slate-50 sm:h-32 flex max-sm:flex-col max-sm:items-center row-span-1 py-8 sm:me-12">
+                    <div class="w-20"><img src="icons/image 14.png" alt=""></div>
+                    <div class="space-y-3 w-72 max-sm:text-center">
+                        <h3 class="text-xl font-bold">Contact Our Seller</h3>
+                        <p class="text-sm">They are here to help you. That's quite
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
